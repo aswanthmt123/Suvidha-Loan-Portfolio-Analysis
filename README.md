@@ -8,14 +8,14 @@ The project includes two interactive dashboards and a detailed PDF report. The a
 
 ## Project Objectives
 
-- Analyze loan portfolio performance and collection trends.
+- Analyze loan disbursement and collection trends.
 - Evaluate outstanding principal and loan exposure.
 - Identify branches with the highest NPA percentages.
 - Compare default risk across employment types.
 - Identify loan products associated with NPAs.
 - Evaluate interest income relative to the amount lent.
 - Analyze overdue loans and their outstanding balances.
-- Present insights through interactive Excel dashboards.
+- Present insights through interactive dashboards.
 
 ## Tools and Technologies
 
@@ -24,17 +24,21 @@ The project includes two interactive dashboards and a detailed PDF report. The a
 - Interactive slicers and filters
 - Excel formulas
 - Data analysis and visualization
-- Business reporting
+  
 
-## Dashboards
+## Dashboard Previews
 
 ### Dashboard 1: Loan Portfolio Overview
 
-Provides a visual overview of the loan portfolio, helping users explore loan performance, disbursements, collections, and outstanding balances.
+This dashboard provides an overview of loan portfolio performance, disbursements, collections, and outstanding balances.
+
+![Suvidha Dashboard 1](<Suvidha Dashboard 1.png>)
 
 ### Dashboard 2: NPA Risk and Profitability Analysis
 
-Focuses on branch-level NPA risk, employment type, loan product performance, interest income, and overdue loans.
+This dashboard focuses on branch-level NPA risk, employment type, loan product performance, interest income, and overdue loans.
+
+![Suvidha Dashboard 2](<Suvidha Dashboard 2.png>)
 
 ## Dataset Overview
 
@@ -102,14 +106,18 @@ The portfolio contained 16 NPA loans out of 200 loans, resulting in an overall N
 
 ## Project Files
 
-- **Excel Workbook:** Contains both interactive dashboards.
-- **PDF Report:** Contains the detailed analysis, findings, and recommendations.
+- **Excel Dashboard Workbook:** Contains both interactive dashboards, PivotTables, charts, and slicers.
+- **PDF Analysis Report:** Contains the detailed analysis, findings, and recommendations.
+
+The Excel workbook and PDF report are available in this repository. Open the files from the repository file list.
+
+## Business Value
+
+This project demonstrates how Excel-based analytics can support loan portfolio monitoring, identify potential credit risks, compare branch performance, and provide insights into interest income and collections.
 
 ## Conclusion
 
-The Suvidha Loan Portfolio Analysis demonstrates how Excel-based analytics can be used to evaluate loan portfolio performance, identify high-risk branches and borrower categories, assess interest income, and monitor overdue accounts.
-
-The project combines data analysis, PivotTables, interactive dashboards, and business reporting to convert loan data into meaningful insights that can support credit risk monitoring and lending decisions.
+The Suvidha Loan Portfolio Analysis project combines data analysis, PivotTables, interactive dashboards, and business reporting to convert loan data into meaningful insights. It demonstrates practical analytical skills and the use of data visualization to support credit risk monitoring and lending decisions.
 
 ## Author
 
@@ -117,4 +125,4 @@ The project combines data analysis, PivotTables, interactive dashboards, and bus
 
 Aspiring Data Analyst
 
-**Skills Demonstrated:** Microsoft Excel,Tableau,Power BI, SQL,data analysis, PivotTables, dashboard development, data visualization, and business reporting.
+**Skills Demonstrated:** Microsoft Excel, Tableau, Power BI, SQL, data analysis, PivotTables, dashboard development, data visualization, and business reporting.
