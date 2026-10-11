@@ -2,81 +2,119 @@
 
 ## Project Overview
 
-This project focuses on analyzing a loan portfolio using Microsoft Excel to understand loan performance, collection trends, outstanding principal, interest income, and Non-Performing Asset (NPA) risk.
+The Suvidha Loan Portfolio Analysis project focuses on evaluating loan performance, collection trends, outstanding principal, interest income, and Non-Performing Asset (NPA) risk using Microsoft Excel.
 
-The project includes two interactive Excel dashboards and a detailed analysis report. It demonstrates how data analysis and visualization can help identify portfolio risks, evaluate branch performance, and support data-driven lending decisions.
+The project includes two interactive dashboards and a detailed PDF report. The analysis helps identify high-risk branches, compare loan product profitability, and understand portfolio performance through data-driven insights.
 
 ## Project Objectives
 
-- Analyze loan disbursement and collection trends.
-- Evaluate outstanding principal across regions and branches.
-- Identify branches with higher NPA percentages.
-- Compare default risk across employment types and loan products.
-- Analyze interest income and loan product profitability.
-- Examine overdue loans and their outstanding balances.
-- Present key insights through interactive dashboards.
+- Analyze loan portfolio performance and collection trends.
+- Evaluate outstanding principal and loan exposure.
+- Identify branches with the highest NPA percentages.
+- Compare default risk across employment types.
+- Identify loan products associated with NPAs.
+- Evaluate interest income relative to the amount lent.
+- Analyze overdue loans and their outstanding balances.
+- Present insights through interactive Excel dashboards.
 
-## Tools and Techniques
+## Tools and Technologies
 
-- **Microsoft Excel**
+- Microsoft Excel
 - PivotTables and PivotCharts
 - Interactive slicers and filters
-- Excel formulas and data analysis
-- Data visualization and reporting
+- Excel formulas
+- Data analysis and visualization
+- Business reporting
 
 ## Dashboards
 
 ### Dashboard 1: Loan Portfolio Overview
 
-This dashboard presents an overview of loan portfolio performance, helping users explore loan-related metrics and compare performance across different categories.
+Provides a visual overview of the loan portfolio, helping users explore loan performance, disbursements, collections, and outstanding balances.
 
 ### Dashboard 2: NPA Risk and Profitability Analysis
 
-This dashboard focuses on loan risk, branch performance, outstanding balances, interest income, and profitability to identify areas requiring further investigation.
+Focuses on branch-level NPA risk, employment type, loan product performance, interest income, and overdue loans.
 
-> Add screenshots of both dashboards here to make the project visually accessible to recruiters.
+## Dataset Overview
 
-## Key Business Questions
+The analysis covers the following portfolio metrics:
 
-The analysis explores questions such as:
-
-1. How do loan disbursements and collections change over time?
-2. What percentage of principal remains outstanding?
-3. Which branches have the highest NPA percentages?
-4. Does employment type influence default risk?
-5. Which loan products are most commonly associated with NPAs?
-6. Which loan products generate the highest interest income relative to the amount lent?
-7. Do branches with the highest disbursements also generate the highest interest income?
-8. How many loans are overdue, and what is their outstanding principal?
+| Metric | Result |
+|---|---:|
+| Total loans | 200 |
+| Total NPA loans | 16 |
+| Overall NPA percentage | 8.00% |
+| Total disbursement | ₹10,93,75,000 |
+| Total outstanding principal | ₹9,93,01,530 |
+| Overdue loans (1–90 DPD) | 37 |
+| Outstanding principal of overdue loans | ₹2,08,70,151 |
 
 ## Key Findings
 
-The main findings are documented in the accompanying project report.
+### 1. Branch-Level NPA Risk
 
-- **Loan portfolio performance:** [Add your verified finding.]
-- **Branch-level NPA risk:** [Add the branch with the highest NPA percentage.]
-- **Employment type and default risk:** [Add your finding based on the analysis.]
-- **Loan product profitability:** [Add your most profitable product based on the chosen metric.]
-- **Overdue loans:** [Add the overdue loan count and total outstanding principal.]
+Chennai-01 recorded the highest NPA percentage at **10.71%**, followed by Pune-01 at 10.00% and Bengaluru-01 at 9.52%.
+
+Bhubaneswar-01 had the lowest NPA percentage at 4.00%.
+
+**Business insight:** Chennai-01 requires closer monitoring of loan repayment performance and credit risk compared with the other branches.
+
+### 2. Employment Type and Default Risk
+
+Business Owners were identified as the riskiest employment category in the analysis.
+
+Within this category, Personal Loans were the most frequently represented loan product among NPA loans, with 3 cases. Business Loans accounted for 2 cases, while Gold Loans and Vehicle Loans accounted for 1 case each.
+
+**Business insight:** Reviewing repayment capacity and credit assessment practices for Business Owner borrowers may help identify potential risks earlier.
+
+### 3. Loan Product Profitability
+
+Personal Loans generated the highest interest income relative to the amount lent, at **4.24%**.
+
+| Loan Product | Interest Income as % of Loan Amount |
+|---|---:|
+| Personal Loan | 4.24% |
+| Business Loan | 3.75% |
+| Home Improvement Loan | 3.21% |
+| Vehicle Loan | 2.65% |
+| Gold Loan | 2.48% |
+
+**Business insight:** Personal Loans delivered the highest return according to this interest-income-to-loan-amount metric. This metric does not account for funding costs, operating expenses, or credit losses, so it should not be interpreted as net profit.
+
+### 4. Disbursement Versus Interest Income by Branch
+
+Bhubaneswar-01 recorded the highest loan disbursement at ₹1,60,66,000, while Kolkata-01 generated the highest interest income at ₹5,70,012.
+
+**Business insight:** The branch with the highest disbursement was not the branch with the highest interest income. This highlights the importance of examining interest generation alongside lending volume.
+
+### 5. Overdue Loan Analysis
+
+A total of **37 loans** were in the 1–90 Days Past Due (DPD) category, representing an outstanding principal of **₹2,08,70,151**.
+
+**Business insight:** Monitoring overdue accounts and following up on repayment delays can help reduce the risk of accounts deteriorating into more serious delinquency categories.
+
+### 6. Overall Portfolio Risk
+
+The portfolio contained 16 NPA loans out of 200 loans, resulting in an overall NPA percentage of 8.00%.
+
+**Business insight:** Branch-level and borrower-level analysis provides a more detailed view of credit risk than the overall NPA percentage alone.
 
 ## Project Files
 
-| File | Description |
-|---|---|
-| `Suvidha_Dashboard.xlsx` | Excel workbook containing both dashboards |
-| `Suvidha_Analysis_Report.pdf` | Detailed project analysis and findings |
-
-
-## Business Value
-
-This project demonstrates how spreadsheet-based analytics can support loan portfolio monitoring, identify potential credit risks, compare branch performance, and provide insights into interest income and collections.
+- **Excel Workbook:** Contains both interactive dashboards.
+- **PDF Report:** Contains the detailed analysis, findings, and recommendations.
 
 ## Conclusion
 
-The Suvidha Loan Portfolio Analysis project combines Excel-based analysis, interactive dashboards, and business reporting to convert loan data into actionable insights. It showcases practical data analytics skills, including data interpretation, visualization, and communicating findings to support business decisions.
+The Suvidha Loan Portfolio Analysis demonstrates how Excel-based analytics can be used to evaluate loan portfolio performance, identify high-risk branches and borrower categories, assess interest income, and monitor overdue accounts.
+
+The project combines data analysis, PivotTables, interactive dashboards, and business reporting to convert loan data into meaningful insights that can support credit risk monitoring and lending decisions.
 
 ## Author
-Aswanth MT
+
+**Aswanth MT**
+
 Aspiring Data Analyst
 
-Skills demonstrated: Microsoft Excel, data analysis, dashboard development, data visualization, and business reporting.
+**Skills Demonstrated:** Microsoft Excel,Tableau,Power BI, SQL,data analysis, PivotTables, dashboard development, data visualization, and business reporting.
